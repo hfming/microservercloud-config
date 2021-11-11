@@ -4,12 +4,12 @@ spring:
 
 ---
 spring:
-    profiles: dev # 开发环境
+    profiles: dev
     application:
       name: microservercloud-config-hfming-dev
 
 ---
 spring:
-  profiles: test # 测试环境
+  profiles: test
   application:
     name: microservercloud-config-hfming-test
